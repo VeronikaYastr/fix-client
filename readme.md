@@ -18,8 +18,19 @@ fix4_2.xml - message dictionary.
 
 ### Rest API
 
-- POST /fix-client/v1/market-data-request?symbol=
-  Send MarketDataRequest message by specified symbol to QuickFix Server.
-- GET /fix-client/v1/market-data?symbol=
-  Get market data by specified symbol.
 
+#### POST /fix-client/v1/market-data-request?symbol=
+
+Send MarketDataRequest message by specified symbol to QuickFix Server.
+
+#### GET /fix-client/v1/market-data?symbol=
+
+Get market data by specified symbol.
+
+```json
+{
+  "symbol": "AAPL",
+  "bid": 123.45,
+  "ask": null
+}
+```
