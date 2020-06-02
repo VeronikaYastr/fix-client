@@ -1,0 +1,9 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /fix-client/v1
+
+fix:
+  cfg: 'classpath:config/client.cfg'
+  socketConnectHost: localhost
+  socketConnectPort: 9876

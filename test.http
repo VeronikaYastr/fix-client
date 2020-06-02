@@ -1,0 +1,7 @@
+POST localhost:9090/fix-client/v1/market-data-request?symbol=AAPL
+
+###
+
+GET localhost:9090/fix-client/v1/market-data?symbol=AAPL
+
+###
