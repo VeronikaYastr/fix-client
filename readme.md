@@ -1,7 +1,7 @@
 ## Fix Client
 
 Sample of basic client application to exchange messages with QuickFix/J test server using FIX4.2 protocol.
-You can find more details in my [article]().
+You can find more details in my [article](https://habr.com/ru/post/505022/).
 
 ### Configuration
 
